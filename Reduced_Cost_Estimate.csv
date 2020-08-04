@@ -1,0 +1,23 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Reduced_Cost_Estimate,US East (Ohio),Amazon EC2,0,266.3,3195.6,USD,"Operating system (Linux), Quantity (6), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (t3a.large)"
+Reduced_Cost_Estimate,US East (Ohio),Amazon EC2,0,296.52,3558.24,USD,"Operating system (Linux), Quantity (6), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (c5.large)"
+Reduced_Cost_Estimate,US East (Ohio),Amazon RDS for PostgreSQL,0,1402.093,16825.12,USD,"Quantity (1), Storage volume (General Purpose SSD (gp2)), Storage amount (100 GB per month), Instance type (db.m5.4xlarge), Additional backup storage (500 GB)"
+Reduced_Cost_Estimate,US East (Ohio),Amazon Route 53,0,1444.25,17331,USD,"Hosted Zones (1), Basic Checks Within AWS (200), Number of Elastic Network Interfaces (15)"
+Reduced_Cost_Estimate,US East (Ohio),S3 Standard,0,117.76,1413.12,USD,S3 Standard storage (5 TB per month)
+Reduced_Cost_Estimate,US East (Ohio),Data Transfer,0,0,0,USD,"Data Transfer, Data transfer cost (0)"
+Reduced_Cost_Estimate,US East (Ohio),Amazon Virtual Private Cloud (VPC),0,361.35,4336.2,USD,Number of NAT Gateways (1)
+Reduced_Cost_Estimate,US East (Ohio),Elastic Load Balancing,0,615.03,7380.36,USD,Number of Application Load Balancers (1)
+Reduced_Cost_Estimate,US East (Ohio),Elastic Load Balancing,0,1330.43,15965.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (200 GB per hour), Processed bytes per NLB for TLS (100 GB per hour)"
+Reduced_Cost_Estimate,US East (Ohio),Amazon CloudWatch,0,175.735,2108.82,USD,
+,,,,,,,
+,,,,6009.468,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+,,,,,,,
+Rationale,,,,,,,
+RDS pricing changed from On-Demand to standard reserved for 1-year paid upfront,,,,,,,
+EC2 pricing (both web and application servers) changed from On-Demand to standard reserved for 1-year paid upfront,,,,,,,
+s3 monthly storage reduced,,,,,,,
+Application Load Balancer – reduced amount of processed GB per month (EC2 and IP),,,,,,,
+Network Load Balancer - reduces number of processed GB per month (NLB for TCP),,,,,,,

@@ -1,0 +1,25 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Increased_Cost_Estimate,US East (Ohio),Amazon EC2,0,1476.78,17721.36,USD,"Operating system (Linux), Quantity (10), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (t3a.2xlarge)"
+Increased_Cost_Estimate,US East (Ohio),Amazon EC2,0,1662.2,19946.4,USD,"Operating system (Linux), Quantity (10), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (c5.2xlarge)"
+Increased_Cost_Estimate,US East (Ohio),Amazon RDS for PostgreSQL,0,4107.026,49284.31,USD,"Quantity (2), Storage volume (General Purpose SSD (gp2)), Storage amount (1 TB per month), Instance type (db.m5.4xlarge), Additional backup storage (10 TB)"
+Increased_Cost_Estimate,US East (Ohio),Amazon Route 53,0,2356.75,28281,USD,"Hosted Zones (1), Basic Checks Within AWS (200), Number of Elastic Network Interfaces (25)"
+Increased_Cost_Estimate,US East (Ohio),S3 Standard,0,235.52,2826.24,USD,S3 Standard storage (10 TB per month)
+Increased_Cost_Estimate,US East (Ohio),Data Transfer,0,0,0,USD,"Data Transfer, Data transfer cost (0)"
+Increased_Cost_Estimate,US East (Ohio),Amazon Virtual Private Cloud (VPC),0,361.35,4336.2,USD,Number of NAT Gateways (1)
+Increased_Cost_Estimate,US East (Ohio),Elastic Load Balancing,0,1783.03,21396.36,USD,Number of Application Load Balancers (1)
+Increased_Cost_Estimate,US East (Ohio),Elastic Load Balancing,0,1768.43,21221.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (300 GB per hour), Processed bytes per NLB for TLS (100 GB per hour), Average number of new TCP connections ( per second), Average TCP connection duration (30 seconds), Average number of new TLS connections (10 per second), Average TLS connection duration (30 seconds)"
+Increased_Cost_Estimate,US East (Ohio),Amazon CloudWatch,0,4560.208,54722.5,USD,
+Increased_Cost_Estimate,US East (Ohio),AWS Web Application Firewall (WAF),0,351,4212,USD,"Number of Web Access Control Lists (Web ACLs) utilized (15 per month), Number of Rules added per Web ACL (15 per month), Number of Rule Groups per Web ACL (15 per month), Number of Rules inside each Rule Group (15 per month), Number of Managed Rule Groups (15 per month)"
+,,,Total/Month,18662.294,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+,,,,,,,
+,,"EC2 – For both application and web servers, increased the server size (2x) and number of instances to 10",,,,,
+,,RDS – doubled the number of instance to 2,,,,,
+,,Route 53 – increased the number of Elastic Network instances to 25,,,,,
+,,Application Load Balancer - increased number of processed GB per month (EC2 and IP),,,,,
+,,Network Load Balancer - increased number of processed GB per month (NLB for TCP),,,,,
+,,CouldWatch - increased number of logs and metrics,,,,,
+,,Web Application Firewall- introduced web application firewall,,,,,

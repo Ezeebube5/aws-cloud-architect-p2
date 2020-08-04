@@ -1,0 +1,15 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (Ohio),Amazon EC2,0,389.38,4672.56,USD,"Operating system (Linux), Quantity (6), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (t3a.large)"
+My Estimate,US East (Ohio),Amazon EC2,0,432.3,5187.6,USD,"Operating system (Linux), Quantity (6), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (c5.large)"
+My Estimate,US East (Ohio),Amazon RDS for PostgreSQL,0,2208.54,26502.48,USD,"Quantity (1), Storage volume (General Purpose SSD (gp2)), Storage amount (150 GB per month), Instance type (db.m5.4xlarge), Additional backup storage (1000 GB)"
+My Estimate,US East (Ohio),Amazon Route 53,0,1444.25,17331,USD,"Hosted Zones (1), Basic Checks Within AWS (200), Number of Elastic Network Interfaces (15)"
+My Estimate,US East (Ohio),S3 Standard,0,235.52,2826.24,USD,S3 Standard storage (10 TB per month)
+My Estimate,US East (Ohio),Data Transfer,0,0,0,USD,"Data Transfer, Data transfer cost (0)"
+My Estimate,US East (Ohio),Amazon Virtual Private Cloud (VPC),0,361.35,4336.2,USD,Number of NAT Gateways (1)
+My Estimate,US East (Ohio),Elastic Load Balancing,0,1482.27,17787.24,USD,Number of Application Load Balancers (1)
+My Estimate,US East (Ohio),Elastic Load Balancing,0,1987.43,23849.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (300 GB per hour), Processed bytes per NLB for TLS (150 GB per hour)"
+My Estimate,US East (Ohio),Amazon CloudWatch,0,175.735,2108.82,USD,
+,,,,,,,
+,,,,8716.775,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
