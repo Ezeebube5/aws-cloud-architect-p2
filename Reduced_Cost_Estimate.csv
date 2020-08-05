@@ -1,5 +1,5 @@
 Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-Reduced_Cost_Estimate,US East (Ohio),Amazon EC2,0,266.3,3195.6,USD,"Operating system (Linux), Quantity (6), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (t3a.large)"
+,US East (Ohio),Amazon EC2,0,266.3,3195.6,USD,"Operating system (Linux), Quantity (6), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (t3a.large)"
 Reduced_Cost_Estimate,US East (Ohio),Amazon EC2,0,296.52,3558.24,USD,"Operating system (Linux), Quantity (6), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (c5.large)"
 Reduced_Cost_Estimate,US East (Ohio),Amazon RDS for PostgreSQL,0,2804.186,33650.232,USD,"Quantity (2), Storage volume (General Purpose SSD (gp2)), Storage amount (100 GB per month), Instance type (db.m5.4xlarge), Additional backup storage (500 GB)"
 Reduced_Cost_Estimate,US East (Ohio),Amazon Route 53,0,1444.25,17331,USD,"Hosted Zones (1), Basic Checks Within AWS (200), Number of Elastic Network Interfaces (15)"
@@ -21,3 +21,4 @@ EC2 pricing (both web and application servers) changed from On-Demand to standar
 s3 monthly storage reduced,,,,,,,
 Application Load Balancer – reduced amount of processed GB per month (EC2 and IP),,,,,,,
 Network Load Balancer - reduces number of processed GB per month (NLB for TCP),,,,,,,
+Cloudwatch – reduced number of basic checks within AWS and Elastic Network Interfaces,,,,,,,

@@ -1,0 +1,33 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,2756.686,33080.23,USD,"Quantity (2), Storage volume (General Purpose SSD (gp2)), Storage amount (100 GB per month), Additional backup storage (500 GB)"
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,0,0,USD,"Number of EIP remaps (0), Number of EC2 instances (1), Number of EIPs per instance (1)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,323.218,3878.62,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB),  Inbound (from: Not selected) 0 TB per month 
+ Outbound (to: Not selected) 0 TB per month 
+ Intra-Region 0 TB per month 
+, Workload (Consistent, Number of instances: 6)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,309.87,3718.44,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (80 GB), Snapshot Frequency (Weekly), Amount changed per snapshot (3 GB),  Inbound (from: Not selected) 0 TB per month 
+ Outbound (to: Not selected) 0 TB per month 
+ Intra-Region 0 TB per month 
+, Workload (Consistent, Number of instances: 6)"
+My Estimate,US East (N. Virginia),Amazon Route 53,0,948,11376,USD,"Hosted Zones (1), Basic Checks Within AWS (120), Number of Elastic Network Interfaces (10)"
+My Estimate,US East (N. Virginia),S3 Standard,0,117.76,1413.12,USD,S3 Standard storage (5 TB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD," Inbound (from: Not selected) 0 TB per month 
+ Outbound (to: Not selected) 0 TB per month 
+"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,197.1,2365.2,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,630.83,7569.96,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,936.23,11234.76,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (140 GB per hour), Processed bytes per NLB for TLS (70 GB per hour)"
+My Estimate,US East (N. Virginia),Amazon CloudWatch,0,221.35,2656.2,USD,
+,,,Total/month,6441.044,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+,,,,,,,
+Rationale,,,,,,,
+RDS pricing – reduced storage amount and additional backup storage,,,,,,,
+EC2 pricing (both web and application servers) changed from On-Demand to standard reserved for 1-year paid upfront,,,,,,,
+s3 monthly storage reduced,,,,,,,
+Application Load Balancer – reduced amount of processed GB per month (EC2 and IP),,,,,,,
+Network Load Balancer – reduced number of processed GB per month (NLB for TCP),,,,,,,
+Cloudwatch – reduced number of basic checks within AWS and Elastic Network Interfaces,,,,,,,
