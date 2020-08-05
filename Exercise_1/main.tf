@@ -10,6 +10,9 @@ resource "aws_instance" "Udacity-T2" {
   ami           = "ami-0ecf25844fe9ed59f" # Amazon Linux 2 AMI (HVM), SSD
   instance_type = "t2.micro"
   count         = 4
+   tags = {
+    Name = "Udacity T2"
+  }
 }
 
 
@@ -20,4 +23,7 @@ resource "aws_instance" "Udacity-M4" {
   ami           = "ami-3ae67c42" # Amazon Linux 2 AMI (HVM), SSD
   instance_type = "m4.large"
   count         = 2
+  tags = {
+    Name = "Udacity M4"
+  }
 }
